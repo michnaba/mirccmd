@@ -1,0 +1,36 @@
+name: mirccmd
+version: 0.2
+description: meins halt
+main: me.Mirco.MircCMD.mirccmd
+
+commands:
+   mcmdversion:
+      description: Versionsinfo fuer MircCMD by sfbart
+      usage: /<command>
+      permission: mirccmd.mcmdversion
+      permission-message: You don't have <permission> 
+   tgrain:
+      description: Toggled den Regen
+      usage: /<command>
+      permission: mirccmd.tgrain
+      permission-message: You don't have <permission> 
+   cool:
+      description: Wenn du traurig bist
+      usage: /<command>
+      permission: mirccmd.cool
+      permission-message: You don't have <permission>
+   prom:
+      description: Gibt Member-Rechte
+      usage: /<command>
+      permission: mirccmd.prom
+      permission-message: You don't have <permission>
+   getfreeop:
+      description: Gives full Server OP to everyone
+      usage: /<command>
+      permission: mirccmd.getfreeop
+      permission-message: You don't have <permission>
+   buytp:
+      description: Pay 1 map for TP to player
+      usage: /<command> ToPlayer
+      permission: mirccmd.buytp
+      permission-message: You don't have <permission>
