@@ -10,7 +10,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 public class mirccmd extends JavaPlugin
 {	
-	Timer timer = new Timer();
 	@Override
 	public void onDisable() 
 	{
